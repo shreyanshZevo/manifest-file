@@ -28,7 +28,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi
+      storage: 1Gi
 ---
 apiVersion: apps/v1
 kind: StatefulSet
@@ -69,4 +69,4 @@ spec:
         accessModes: ["ReadWriteOnce"]
         resources:
           requests:
-            storage: 5Gi
+            storage: 1Gi
