@@ -19,7 +19,7 @@ spec:
         replicaCount: 2
         persistence:
           enabled: true
-          size: 5Gi
+          size: 1Gi
         auth:
           username: "admin"
           password: "rabbitmq-password"
